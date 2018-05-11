@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUILDDIR	docs/Makefile	/^BUILDDIR      = build$/;"	m
+BasicTokenMock	test_old/BasicToken.test.js	/^var BasicTokenMock = artifacts.require('.\/mocks\/BasicTokenMock.sol');$/;"	v
+CappedToken	test_old/CappedToken.test.js	/^var CappedToken = artifacts.require('..\/contracts\/Tokens\/CappedToken.sol');$/;"	v
+Claimable	test_old/Claimable.test.js	/^var Claimable = artifacts.require('..\/contracts\/ownership\/Claimable.sol');$/;"	v
+Contactable	test_old/Contactable.test.js	/^var Contactable = artifacts.require('..\/contracts\/ownership\/Contactable.sol');$/;"	v
+DelayedClaimable	test_old/DelayedClaimble.test.js	/^var DelayedClaimable = artifacts.require('..\/contracts\/ownership\/DelayedClaimable.sol');$/;"	v
+Destructible	test_old/Destructible.test.js	/^var Destructible = artifacts.require('..\/contracts\/lifecycle\/Destructible.sol');$/;"	v
+ECRecovery	test_old/ECRecovery.test.js	/^var ECRecovery = artifacts.require('..\/contracts\/ECRecovery.sol');$/;"	v
+InsecureTargetBounty	test_old/Bounty.test.js	/^var InsecureTargetBounty = artifacts.require('mocks\/InsecureTargetBounty.sol');$/;"	v
+LimitBalanceMock	test_old/LimitBalance.test.js	/^var LimitBalanceMock = artifacts.require('mocks\/LimitBalanceMock.sol');$/;"	v
+MerkleProof	test_old/MerkleProof.test.js	/^var MerkleProof = artifacts.require('.\/MerkleProof.sol');$/;"	v
+Migrations	migrations/1_initial_migration.js	/^var Migrations = artifacts.require('.\/Migrations.sol');$/;"	v
+MintableToken	test_old/MintableToken.test.js	/^var MintableToken = artifacts.require('..\/contracts\/Tokens\/MintableToken.sol');$/;"	v
+Ownable	test_old/Ownable.test.js	/^var Ownable = artifacts.require('..\/contracts\/ownership\/Ownable.sol');$/;"	v
+PausableTokenMock	test_old/PausableToken.test.js	/^var PausableTokenMock = artifacts.require('.\/mocks\/PausableTokenMock.sol');$/;"	v
+PullPaymentMock	test_old/PullPayment.test.js	/^var PullPaymentMock = artifacts.require('.\/mocks\/PullPaymentMock.sol');$/;"	v
+SOURCEDIR	docs/Makefile	/^SOURCEDIR     = source$/;"	m
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    =$/;"	m
+SPHINXPROJ	docs/Makefile	/^SPHINXPROJ    = zeppelin-solidity$/;"	m
+SafeMathMock	test_old/SafeMath.test.js	/^var SafeMathMock = artifacts.require('.\/mocks\/SafeMathMock.sol');$/;"	v
+SecureTargetBounty	test_old/Bounty.test.js	/^var SecureTargetBounty = artifacts.require('mocks\/SecureTargetBounty.sol');$/;"	v
+StandardTokenMock	test_old/StandardToken.test.js	/^var StandardTokenMock = artifacts.require('.\/mocks\/StandardTokenMock.sol');$/;"	v
+StandardTokenMock	test_old/TokenDestructible.test.js	/^var StandardTokenMock = artifacts.require('.\/mocks\/StandardTokenMock.sol');$/;"	v
+TokenDestructible	test_old/TokenDestructible.test.js	/^var TokenDestructible = artifacts.require('..\/contracts\/lifecycle\/TokenDestructible.sol');$/;"	v
+author	docs/source/conf.py	/^author = u'Smart Contract Solutions, Inc'$/;"	v
+awaitEvent	test_old/Bounty.test.js	/^function awaitEvent (event, handler) {$/;"	f
+cleanup	scripts/test.sh	/^cleanup() {$/;"	f
+copyright	docs/source/conf.py	/^copyright = u'2016, Smart Contract Solutions, Inc'$/;"	v
+days	test/helpers/increaseTime.js	/^  hours: function (val) { return val * this.minutes(60); },$/;"	m	class:export
+days	test_old/helpers/increaseTime.js	/^  hours: function (val) { return val * this.minutes(60); },$/;"	m	class:export
+exclude_patterns	docs/source/conf.py	/^exclude_patterns = []$/;"	v
+extensions	docs/source/conf.py	/^extensions = []$/;"	v
+hashMessage	test_old/ECRecovery.test.js	/^var hashMessage = require('.\/helpers\/hashMessage.js');$/;"	v
+hours	test/helpers/increaseTime.js	/^  minutes: function (val) { return val * this.seconds(60); },$/;"	m	class:export
+hours	test_old/helpers/increaseTime.js	/^  minutes: function (val) { return val * this.seconds(60); },$/;"	m	class:export
+html_static_path	docs/source/conf.py	/^html_static_path = ['_static']$/;"	v
+html_theme	docs/source/conf.py	/^html_theme = "sphinx_rtd_theme"$/;"	v
+html_theme_path	docs/source/conf.py	/^html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	v
+htmlhelp_basename	docs/source/conf.py	/^htmlhelp_basename = 'zeppelin-soliditydoc'$/;"	v
+ico	timestamps.js	/^    presale2End:'2018-01-31 19:00',$/;"	p	class:let
+icoEnd	timestamps.js	/^    ico:'2018-02-01 11:00',$/;"	p	class:let
+language	docs/source/conf.py	/^language = None$/;"	v
+latex_documents	docs/source/conf.py	/^latex_documents = [$/;"	v
+latex_elements	docs/source/conf.py	/^latex_elements = {$/;"	v
+let	test_old/Bounty.test.js	/^$/;"	f
+man_pages	docs/source/conf.py	/^man_pages = [$/;"	v
+master_doc	docs/source/conf.py	/^master_doc = 'index'$/;"	v
+minutes	test/helpers/increaseTime.js	/^  seconds: function (val) { return val; },$/;"	m	class:export
+minutes	test_old/helpers/increaseTime.js	/^  seconds: function (val) { return val; },$/;"	m	class:export
+module.exports	migrations/1_initial_migration.js	/^var Migrations = artifacts.require('.\/Migrations.sol');$/;"	f
+module.exports	migrations/2_deploy_contracts.js	/^\/\/ var Ownable = artifacts.require("ownership\/Ownable.sol");$/;"	f
+module.exports	test/helpers/assertJump.js	/^module.exports = function (error) {$/;"	f
+module.exports	test/helpers/assertRevert.js	/^module.exports = function (error) {$/;"	f
+module.exports	test/helpers/hashMessage.js	/^import utils from 'ethereumjs-util';$/;"	f
+module.exports	test_old/helpers/assertJump.js	/^module.exports = function (error) {$/;"	f
+module.exports	test_old/helpers/assertRevert.js	/^module.exports = function (error) {$/;"	f
+module.exports	test_old/helpers/hashMessage.js	/^import utils from 'ethereumjs-util';$/;"	f
+networks	truffle-config.js	/^module.exports = {$/;"	p	class:module.exports
+norpc	.solcover.js	/^module.exports = {$/;"	p	class:module.exports
+presale	timestamps.js	/^let dates ={$/;"	p	class:let
+presale2	timestamps.js	/^    presaleEnd:'2017-12-31 19:00',$/;"	p	class:let
+presale2End	timestamps.js	/^    presale2:'2018-01-01 11:00',$/;"	p	class:let
+presaleEnd	timestamps.js	/^    presale:'2017-12-15 11:00',$/;"	p	class:let
+project	docs/source/conf.py	/^project = u'zeppelin-solidity'$/;"	v
+pygments_style	docs/source/conf.py	/^pygments_style = 'sphinx'$/;"	v
+release	docs/source/conf.py	/^release = u'1.0.0'$/;"	v
+seconds	test/helpers/increaseTime.js	/^export const duration = {$/;"	m	class:export
+seconds	test_old/helpers/increaseTime.js	/^export const duration = {$/;"	m	class:export
+skipFiles	.solcover.js	/^    testCommand: 'node --max-old-space-size=4096 ..\/node_modules\/.bin\/truffle test --network coverage',$/;"	p	class:module.exports
+source_suffix	docs/source/conf.py	/^source_suffix = '.rst'$/;"	v
+start_testrpc	scripts/test.sh	/^start_testrpc() {$/;"	f
+templates_path	docs/source/conf.py	/^templates_path = ['_templates']$/;"	v
+testCommand	.solcover.js	/^    norpc: true,$/;"	p	class:module.exports
+testrpc_running	scripts/test.sh	/^testrpc_running() {$/;"	f
+texinfo_documents	docs/source/conf.py	/^texinfo_documents = [$/;"	v
+todo_include_todos	docs/source/conf.py	/^todo_include_todos = False$/;"	v
+transactionReceiptAsync	test/helpers/transactionMined.js	/^  interval = interval || 500;$/;"	f
+transactionReceiptAsync	test_old/helpers/transactionMined.js	/^  interval = interval || 500;$/;"	f
+version	docs/source/conf.py	/^version = u'1.0.0'$/;"	v
+weeks	test/helpers/increaseTime.js	/^  days: function (val) { return val * this.hours(24); },$/;"	m	class:export
+weeks	test_old/helpers/increaseTime.js	/^  days: function (val) { return val * this.hours(24); },$/;"	m	class:export
+years	test/helpers/increaseTime.js	/^  weeks: function (val) { return val * this.days(7); },$/;"	m	class:export
+years	test_old/helpers/increaseTime.js	/^  weeks: function (val) { return val * this.days(7); },$/;"	m	class:export
