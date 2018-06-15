@@ -7,22 +7,33 @@ module.exports = async (deployer, network, accounts) => {
     const deployParams = {
         softCap: new web3.BigNumber(10000000),
         hardCap: new web3.BigNumber(350000000),
+        totalSupply: new web3.BigNumber(700000000),
         startTime: web3.eth.getBlock('latest').timestamp + 60,
-        endTime: web3.eth.getBlock('latest').timestamp + 86400 * 20,
+        endTime: web3.eth.getBlock('latest').timestamp + (86400 * 20),
         rate: new web3.BigNumber(1000),
         wallet: accounts[1],
     }
     console.log("Deployment Params", deployParams)
 
-    await deployer.deploy(SponBToken)
-    await deployer.deploy(SponBCrowdsale,
-                deployParams.softCap,
-                deployParams.hardCap,
-                deployParams.startTime,
-                deployParams.endTime,
-                deployParams.rate,
-                deployParams.wallet,
-                SponBToken.address
+    await deployer.deploy(
+        SponBToken, 
+        deployParams.wallet, 
+        deployParams.totalSupply, 
+        {overwrite:false}
+    )
+
+    await deployer.deploy(
+        SponBCrowdsale,
+        deployParams.softCap,
+        deployParams.hardCap,
+        deployParams.startTime,
+        deployParams.endTime,
+        deployParams.rate,
+        deployParams.wallet,
+        SponBToken.address,
+        { 
+            overwrite:false 
+        },
     )
 
 };

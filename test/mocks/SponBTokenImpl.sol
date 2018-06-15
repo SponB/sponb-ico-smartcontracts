@@ -5,7 +5,7 @@ import '../../contracts/SponBToken.sol';
 
 contract SponBTokenImpl is SponBToken {
 
-    function SponBTokenImpl() public SponBToken() {
+    function SponBTokenImpl(address _wallet, uint256 _totalSupply) public SponBToken(_wallet, _totalSupply) {
         
     }
 

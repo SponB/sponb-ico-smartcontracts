@@ -8,7 +8,7 @@ import "openzeppelin-solidity/contracts/ownership/Claimable.sol";
 
 import "./SponBToken.sol";
 
-contract SponBCrowdsale is TimedCrowdsale,CappedCrowdsale,RefundableCrowdsale,WhitelistedCrowdsale,Claimable{
+contract SponBCrowdsale is CappedCrowdsale,TimedCrowdsale,RefundableCrowdsale,WhitelistedCrowdsale,Claimable{
     
     function SponBCrowdsale(
         uint _softCap, 
@@ -20,13 +20,19 @@ contract SponBCrowdsale is TimedCrowdsale,CappedCrowdsale,RefundableCrowdsale,Wh
         SponBToken _token
     ) public
     Crowdsale(_rate, _wallet, _token)
-    TimedCrowdsale(_startTime, _endTime)
-    CappedCrowdsale(_hardCap)
-    RefundableCrowdsale(_softCap)
+    CappedCrowdsale(_softCap)
     WhitelistedCrowdsale
+    RefundableCrowdsale(_softCap)
+    TimedCrowdsale(_startTime,_endTime)
     Claimable
     {
 
+    }
+
+    // TODO : Transfer out ERC20 tokens    
+
+    function _deliverTokens(address _beneficiary, uint256 _tokenAmount) internal {
+        //token.transferFrom(wallet, _beneficiary, _tokenAmount);
     }
 
 }
